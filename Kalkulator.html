@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калкулатор</title>
+    
+    <style>
+        body {
+            background-color: #00AF50;
+        }
+        p {
+            color: rebeccapurple;
+            font-family: Arial;
+        }
+        button {
+            background-color: #00AF50;
+            color:rebeccapurple;
+        }
+    </style>
+</head>
+
+<body>
+
+        <script src="api.js"></script>
+
+
+        <p><b>Първо число:</b></p>
+        <input type="number" id="prv"><br>
+
+        <p><b>Знак:</b></p>
+        <input type="text" id="z">
+        
+        <p><b>Второ число:</b></p>
+        <input type="number" id="vtr"><br>
+
+        <button type="submit" id="smet" onclick="smetni()"><b>СМЕТНИ</b></button>
+        <br><br>
+        
+
+        <p id="otg"><b id="otg2"></b></p>
+        
+</body>
+</html>
